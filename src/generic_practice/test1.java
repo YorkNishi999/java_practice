@@ -33,6 +33,25 @@ public class test1 {
 		String s5 = "Java programming";
 		System.out.println("the letter after 4th in s5 are " + s5.substring(3));
 		System.out.println("the first 4th letter in s5 are " + s5.substring(0,5));
+		
+		
+		StringBuilder sb = new StringBuilder();
+		for (int i = 0; i < 10; ++i) {
+			sb.append("java");
+		}
+		String s = sb.toString();
+		System.out.println(s);
+		
+		StringBuilder sb2 = new StringBuilder();
+		for (int i = 1; i <= 100; ++i) {
+			sb2.append(i);
+			sb2.append(",");
+		}
+		String a = sb2.toString();
+		System.out.println(a);
+
+		
+	
 	}
 
 }
